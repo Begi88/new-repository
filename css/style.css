@@ -1,0 +1,33 @@
+a {
+   text-decoration: none;
+   color: #f5184ff5; 
+   font-family: Arial, sans-serif; 
+   font-size: 18px; 
+   padding: 8px 16px;
+   margin: 5px;
+   border-radius: 4px; 
+   background: #7099b4; 
+   transition: all 0.3s ease;
+   width: 40px; 
+   height: 40px;
+}
+.name{ 
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    background-color:#e61818;
+    color: aqua;
+    transform: scale(1.05);
+}
+
+a:active { 
+    color: #e74C3C;
+}
+
+
+a:focus { 
+    outline: 3px solid #3498db;
+    outline-offset: 2px;
+}
